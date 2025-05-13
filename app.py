@@ -15,20 +15,21 @@ if not openai_api_key:
 
 client = OpenAI(api_key=openai_api_key)
 
+# --- Configuration de l'interface ---
 st.set_page_config(page_title="Chatbot Invest Together", page_icon="🤖")
 st.title("🤖 Assistant IA – Invest Together")
 
 st.markdown("""
-Bienvenue sur le chatbot intelligent d’Invest Together. 
+Bienvenue sur le chatbot intelligent d’Invest Together.  
 Posez vos questions sur :
-- Comment soumettre un projet
-- Comment investir dans un projet
-- Les documents nécessaires
-- Les étapes à suivre
+- Comment soumettre un projet  
+- Comment investir dans un projet  
+- Les documents nécessaires  
+- Les étapes à suivre  
 - La sécurité des transactions
 """)
 
-# --- Chargement de la FAQ ---
+# --- Chargement de la FAQ enrichie ---
 def charger_faq():
     try:
         with open("faq.json", "r", encoding="utf-8") as f:
@@ -38,22 +39,29 @@ def charger_faq():
 
 faq_data = charger_faq()
 
-def chercher_reponse_faq(question):
+def chercher_reponse_faq(question_utilisateur):
+    question_utilisateur = question_utilisateur.lower().strip()
     for item in faq_data:
-        if item["question"].lower() in question.lower():
-            return item["answer"]
+        questions = item["question"]
+        if isinstance(questions, list):
+            for variante in questions:
+                if variante.lower() in question_utilisateur:
+                    return item["answer"]
+        elif isinstance(questions, str):
+            if questions.lower() in question_utilisateur:
+                return item["answer"]
     return None
 
-# --- Connexion à SQLite ---
+# --- Connexion SQLite pour l'historique ---
 def enregistrer_message(role, contenu):
     conn = sqlite3.connect("chat_history.db")
     c = conn.cursor()
-    c.execute('''CREATE TABLE IF NOT EXISTS messages (role TEXT, content TEXT)''')
+    c.execute("CREATE TABLE IF NOT EXISTS messages (role TEXT, content TEXT)")
     c.execute("INSERT INTO messages (role, content) VALUES (?, ?)", (role, contenu))
     conn.commit()
     conn.close()
 
-# --- Historique de session ---
+# --- Gestion de l'historique en session ---
 if "messages" not in st.session_state:
     st.session_state.messages = [
         {"role": "system", "content": "Tu es un assistant pour une plateforme de financement participatif en Guinée. Tu aides les utilisateurs (investisseurs ou porteurs de projet) à comprendre la plateforme Invest Together avec un langage très simple."}
@@ -79,7 +87,7 @@ if user_input:
     st.session_state.messages.append({"role": "assistant", "content": assistant_message})
     enregistrer_message("assistant", assistant_message)
 
-# --- Affichage de l'historique ---
+# --- Affichage de la conversation ---
 for message in st.session_state.messages[1:]:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])

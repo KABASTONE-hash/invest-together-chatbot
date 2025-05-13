@@ -10,6 +10,10 @@
   {
     "question": ["qui est le pdg", "c'est qui le pdg", "qui est le directeur", "qui dirige la plateforme", "le dg de invest together", "le président de invest together"],
     "answer": "Le PDG de la plateforme Invest Together en Guinée est M. Eloi César Tolno. Il dirige l'équipe avec pour mission de promouvoir l'entrepreneuriat local et de renforcer l'économie nationale à travers le financement participatif."
+  },
+  {
+    "question": ["comment investir", "je veux investir", "investir dans un projet"],
+    "answer": "Pour investir via Invest Together, créez un compte, explorez les projets disponibles, choisissez celui qui vous intéresse, puis effectuez un paiement sécurisé en GNF (mobile money ou carte)."
   }
 
 ]

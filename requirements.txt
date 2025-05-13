@@ -1,0 +1,4 @@
+streamlit
+openai
+python-dotenv
+sqlite3  # (inclus par défaut avec Python mais on l’indique si tu déploies sur certains serveurs)

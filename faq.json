@@ -115,3 +115,42 @@
     "answer": "Pour toutes les informations complémentaires utiles concernant Invest Together, visitez : [https://investogether.net](https://investogether.net)"
   }
 ]
+
+[
+  {
+    "question": [
+      "Qui est le PDG ?",
+      "Quel est le nom du PDG ?",
+      "Nom du fondateur ?",
+      "PDG de Invest Together"
+    ],
+    "answer": "Le PDG de Invest Together est Monsieur Eloi César Tolno. Il dirige la vision stratégique de la plateforme en mettant l'accent sur l'impact local et l'inclusion financière."
+  },
+  {
+    "question": [
+      "Comment générer un contrat ?",
+      "Puis-je obtenir un contrat digital ?",
+      "Créer un contrat automatique",
+      "Modèle de contrat"
+    ],
+    "answer": "Oui, vous pouvez générer automatiquement un contrat personnalisé en précisant si vous êtes investisseur ou porteur de projet. Voici un exemple simple de contrat :\n\n**Contrat de Financement Participatif Simplifié**\n\n**Entre :** Monsieur/Madame [Nom du porteur de projet], porteur du projet [Nom du projet], enregistré sous le numéro RCCM [Numéro], domicilié à [Adresse].\n\n**Et :** Monsieur/Madame [Nom de l'investisseur], domicilié à [Adresse de l'investisseur].\n\n**Objet du contrat :** Ce contrat encadre l’investissement d’un montant de [Montant] GNF dans le projet [Nom du projet].\n\n**Durée :** Le présent contrat prend effet à compter du [Date] pour une durée de [Durée].\n\n**Clause de remboursement et de partage des bénéfices :** Le porteur s’engage à verser [X%] des bénéfices mensuels/trimestriels.\n\n**Signature électronique :** Les deux parties valident ce contrat électroniquement.\n\nPour explorer tous les modèles disponibles, visitez : https://investogether.net/contrats"
+  },
+  {
+    "question": [
+      "Puis-je envoyer une question par la voix ?",
+      "Parler au chatbot",
+      "Assistant vocal",
+      "Utiliser ma voix"
+    ],
+    "answer": "Oui ! Un assistant vocal est disponible. Cliquez sur l’icône micro dans l’application pour poser votre question oralement. C’est pratique pour les utilisateurs qui ne savent pas lire ou écrire."
+  },
+  {
+    "question": [
+      "Contentieux",
+      "Gestion des conflits",
+      "Litiges",
+      "Aide en cas de désaccord"
+    ],
+    "answer": "Voici les fonctionnalités disponibles pour gérer les conflits sur la plateforme :\n\n• **Détection Préventive des Risques** : Analyse des échanges pour détecter les retards ou manquements.\n• **Gestion des Conflits** : Suggestions automatiques pour résoudre les désaccords grâce à des scénarios déjà testés.\n• **Support Juridique Automatisé** : Génération de documents tels que des avenants ou accords de médiation.\n• **Tableau de Bord des Litiges** : Suivi complet des dossiers en cours, des étapes de médiation et du temps de résolution estimé.\n\nVoici un exemple de document généré :\n\n**Accord de Médiation Simplifié**\n\nEntre les parties [Nom porteur] et [Nom investisseur], il est convenu d’un report de paiement sur 30 jours. Un avenant au contrat initial est généré automatiquement."
+  }
+]

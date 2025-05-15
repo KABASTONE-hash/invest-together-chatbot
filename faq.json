@@ -5,7 +5,11 @@
       "nom du pdg",
       "pdg invest together",
       "directeur général",
-      "ceo invest together"
+      "ceo invest together",
+      "Qui est le PDG ?",
+      "Quel est le nom du PDG ?",
+      "Nom du fondateur ?",
+      "PDG de Invest Together"
     ],
     "answer": "Le PDG de la plateforme Invest Together est **M. Eloi César Tolno**. Il dirige l’équipe avec une vision claire : faciliter l’investissement et le développement local en Guinée."
   },
@@ -32,18 +36,23 @@
       "signature électronique",
       "contrat automatique",
       "assistant contrat",
-      "générer contrat"
+      "générer contrat",
+      "Modèle de contrat",
+      "Créer un contrat automatique"
     ],
-    "answer": "L’assistant IA permet de générer des contrats automatiques adaptés à chaque projet. Vous pouvez les signer électroniquement de façon légale et les partager de manière sécurisée."
+    "answer": "L’assistant IA peut générer un contrat personnalisé en fonction de votre besoin (investisseur ou porteur de projet).\n\n**Exemple simplifié :**\n\n**Contrat de Financement Participatif**\n\n**Entre :** M./Mme [Nom du porteur] – Projet [Nom du projet] – RCCM [Numéro]\n**Et :** M./Mme [Nom de l’investisseur]\n**Montant investi :** [Montant] GNF\n**Durée :** [Durée en mois]\n**Clause de bénéfices :** [X%] reversés trimestriellement\n**Signature électronique légale**\n\n📄 D’autres modèles disponibles ici : [https://investogether.net/contrats](https://investogether.net/contrats)"
   },
   {
     "question": [
       "contentieux",
       "gestion de conflit",
       "résoudre un litige",
-      "assistant litige"
+      "assistant litige",
+      "Aide en cas de désaccord",
+      "Litiges",
+      "Gestion des conflits"
     ],
-    "answer": "La plateforme propose un assistant intelligent pour détecter les risques, proposer une médiation automatisée, et suivre les contentieux via un tableau de bord dédié."
+    "answer": "La plateforme vous aide à prévenir et résoudre les conflits.\n\n• **Détection de Risques** : Analyse des retards ou non-respect d'engagements\n• **Médiation** : Propositions automatiques basées sur des cas précédents\n• **Documents juridiques générés** : Avenants, accords de médiation\n• **Suivi via tableau de bord des litiges**\n\n**Exemple :** Accord simplifié entre les deux parties pour reporter un paiement de 30 jours."
   },
   {
     "question": [
@@ -53,7 +62,7 @@
       "suivi impact",
       "tableau de bord impact"
     ],
-    "answer": "Un tableau de bord interactif vous permet de suivre les indicateurs clés comme les emplois créés, les réductions de CO2 ou les retombées économiques locales."
+    "answer": "Un tableau de bord vous montre en temps réel les effets de chaque projet : emplois créés, réduction de CO2, zones touchées. Ces données sont consultables sur votre espace personnel."
   },
   {
     "question": [
@@ -63,7 +72,7 @@
       "trouver expert",
       "formation projet"
     ],
-    "answer": "La marketplace vous donne accès à des experts en juridique, marketing ou finance. Vous pouvez aussi suivre des formations en ligne sur la gestion de projets."
+    "answer": "La marketplace vous connecte à des experts (juridiques, financiers, marketing). Vous pouvez aussi suivre des formations en ligne pratiques pour réussir votre projet."
   },
   {
     "question": [
@@ -73,7 +82,7 @@
       "bonus",
       "réduction plateforme"
     ],
-    "answer": "Vous gagnez des points à chaque action (investissement, soumission, interaction). Ces points donnent droit à des réductions, des cadeaux ou des services premium."
+    "answer": "Chaque action vous fait gagner des points (investir, soumettre, interagir). Ces points offrent des réductions, bonus ou services premium. Des cadeaux sont aussi disponibles."
   },
   {
     "question": [
@@ -82,7 +91,7 @@
       "simulation investissement",
       "risques projet"
     ],
-    "answer": "L’IA vous propose des projets adaptés à votre profil et vos préférences. Elle simule aussi les rendements possibles et évalue automatiquement les risques."
+    "answer": "L’IA recommande des projets selon votre profil. Elle simule les rendements possibles et calcule les risques avec des données historiques."
   },
   {
     "question": [
@@ -92,7 +101,7 @@
       "accès téléphone simple",
       "code ussd"
     ],
-    "answer": "Vous pouvez utiliser Invest Together par USSD (*123#) ou SMS pour consulter les projets, soumettre le vôtre, faire un suivi ou recevoir des notifications, même sans internet."
+    "answer": "Même sans internet, vous pouvez utiliser Invest Together par USSD (*123#) ou SMS pour consulter les projets, soumettre le vôtre, ou suivre vos investissements."
   },
   {
     "question": [
@@ -102,7 +111,7 @@
       "mobile money",
       "paiement carte"
     ],
-    "answer": "Vous pouvez payer par Mobile Money (Orange Money, MTN), carte bancaire ou virement bancaire en franc guinéen (GNF), selon les options proposées."
+    "answer": "Vous pouvez payer par Orange Money, MTN, carte bancaire ou virement bancaire en franc guinéen (GNF). Tout est sécurisé."
   },
   {
     "question": [
@@ -113,44 +122,25 @@
       "normes"
     ],
     "answer": "Pour toutes les informations complémentaires utiles concernant Invest Together, visitez : [https://investogether.net](https://investogether.net)"
-  }
-]
+  },
 
-[
   {
     "question": [
-      "Qui est le PDG ?",
-      "Quel est le nom du PDG ?",
-      "Nom du fondateur ?",
-      "PDG de Invest Together"
+      "le lien du site de investogether",
+      "son site"
+      
     ],
-    "answer": "Le PDG de Invest Together est Monsieur Eloi César Tolno. Il dirige la vision stratégique de la plateforme en mettant l'accent sur l'impact local et l'inclusion financière."
+    "answer": "Pour toutes les informations complémentaires utiles concernant Invest Together, visitez : [https://investogether.net](https://investogether.net)"
   },
+  
   {
     "question": [
-      "Comment générer un contrat ?",
-      "Puis-je obtenir un contrat digital ?",
-      "Créer un contrat automatique",
-      "Modèle de contrat"
-    ],
-    "answer": "Oui, vous pouvez générer automatiquement un contrat personnalisé en précisant si vous êtes investisseur ou porteur de projet. Voici un exemple simple de contrat :\n\n**Contrat de Financement Participatif Simplifié**\n\n**Entre :** Monsieur/Madame [Nom du porteur de projet], porteur du projet [Nom du projet], enregistré sous le numéro RCCM [Numéro], domicilié à [Adresse].\n\n**Et :** Monsieur/Madame [Nom de l'investisseur], domicilié à [Adresse de l'investisseur].\n\n**Objet du contrat :** Ce contrat encadre l’investissement d’un montant de [Montant] GNF dans le projet [Nom du projet].\n\n**Durée :** Le présent contrat prend effet à compter du [Date] pour une durée de [Durée].\n\n**Clause de remboursement et de partage des bénéfices :** Le porteur s’engage à verser [X%] des bénéfices mensuels/trimestriels.\n\n**Signature électronique :** Les deux parties valident ce contrat électroniquement.\n\nPour explorer tous les modèles disponibles, visitez : https://investogether.net/contrats"
-  },
-  {
-    "question": [
-      "Puis-je envoyer une question par la voix ?",
       "Parler au chatbot",
       "Assistant vocal",
-      "Utiliser ma voix"
+      "Utiliser la voix",
+      "Activer micro",
+      "poser question avec micro"
     ],
-    "answer": "Oui ! Un assistant vocal est disponible. Cliquez sur l’icône micro dans l’application pour poser votre question oralement. C’est pratique pour les utilisateurs qui ne savent pas lire ou écrire."
-  },
-  {
-    "question": [
-      "Contentieux",
-      "Gestion des conflits",
-      "Litiges",
-      "Aide en cas de désaccord"
-    ],
-    "answer": "Voici les fonctionnalités disponibles pour gérer les conflits sur la plateforme :\n\n• **Détection Préventive des Risques** : Analyse des échanges pour détecter les retards ou manquements.\n• **Gestion des Conflits** : Suggestions automatiques pour résoudre les désaccords grâce à des scénarios déjà testés.\n• **Support Juridique Automatisé** : Génération de documents tels que des avenants ou accords de médiation.\n• **Tableau de Bord des Litiges** : Suivi complet des dossiers en cours, des étapes de médiation et du temps de résolution estimé.\n\nVoici un exemple de document généré :\n\n**Accord de Médiation Simplifié**\n\nEntre les parties [Nom porteur] et [Nom investisseur], il est convenu d’un report de paiement sur 30 jours. Un avenant au contrat initial est généré automatiquement."
+    "answer": "La fonction vocale n’est pas activée sur cette version. Posez votre question par écrit ci-dessus. Une future version intégrera le micro sans installation compliquée."
   }
 ]

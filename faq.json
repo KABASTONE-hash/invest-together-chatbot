@@ -1,19 +1,117 @@
 [
   {
-    "question": "Comment soumettre un projet ?",
-    "answer": "Vous devez créer un compte, remplir le formulaire de soumission, télécharger les documents requis et attendre la validation par l'équipe Invest Together."
+    "question": [
+      "qui est le pdg",
+      "nom du pdg",
+      "pdg invest together",
+      "directeur général",
+      "ceo invest together"
+    ],
+    "answer": "Le PDG de la plateforme Invest Together est **M. Eloi César Tolno**. Il dirige l’équipe avec une vision claire : faciliter l’investissement et le développement local en Guinée."
   },
   {
-    "question": "Quels documents dois-je fournir ?",
-    "answer": "Un plan d'affaires, une preuve d'identité, et des informations financières selon la taille du projet."
+    "question": [
+      "comment investir",
+      "je veux investir",
+      "investir dans un projet",
+      "participer à un projet"
+    ],
+    "answer": "Pour investir, vous devez créer un compte, consulter les projets disponibles, choisir celui qui vous intéresse, et effectuer le paiement par mobile money ou carte. Vous recevrez ensuite une attestation officielle."
   },
   {
-    "question": ["qui est le pdg", "c'est qui le pdg", "qui est le directeur", "qui dirige la plateforme", "le dg de invest together", "le président de invest together"],
-    "answer": "Le PDG de la plateforme Invest Together en Guinée est M. Eloi César Tolno. Il dirige l'équipe avec pour mission de promouvoir l'entrepreneuriat local et de renforcer l'économie nationale à travers le financement participatif."
+    "question": [
+      "comment soumettre un projet",
+      "je veux proposer un projet",
+      "devenir porteur de projet"
+    ],
+    "answer": "Pour soumettre un projet, vous devez créer un compte, remplir le formulaire en ligne avec les détails du projet, et soumettre les documents requis comme le RCCM et le NIF."
   },
   {
-    "question": ["comment investir", "je veux investir", "investir dans un projet"],
-    "answer": "Pour investir via Invest Together, créez un compte, explorez les projets disponibles, choisissez celui qui vous intéresse, puis effectuez un paiement sécurisé en GNF (mobile money ou carte)."
+    "question": [
+      "contrat digital",
+      "signature électronique",
+      "contrat automatique",
+      "assistant contrat",
+      "générer contrat"
+    ],
+    "answer": "L’assistant IA permet de générer des contrats automatiques adaptés à chaque projet. Vous pouvez les signer électroniquement de façon légale et les partager de manière sécurisée."
+  },
+  {
+    "question": [
+      "contentieux",
+      "gestion de conflit",
+      "résoudre un litige",
+      "assistant litige"
+    ],
+    "answer": "La plateforme propose un assistant intelligent pour détecter les risques, proposer une médiation automatisée, et suivre les contentieux via un tableau de bord dédié."
+  },
+  {
+    "question": [
+      "impact social",
+      "impact environnemental",
+      "effets du projet",
+      "suivi impact",
+      "tableau de bord impact"
+    ],
+    "answer": "Un tableau de bord interactif vous permet de suivre les indicateurs clés comme les emplois créés, les réductions de CO2 ou les retombées économiques locales."
+  },
+  {
+    "question": [
+      "marketplace",
+      "expert",
+      "aide juridique",
+      "trouver expert",
+      "formation projet"
+    ],
+    "answer": "La marketplace vous donne accès à des experts en juridique, marketing ou finance. Vous pouvez aussi suivre des formations en ligne sur la gestion de projets."
+  },
+  {
+    "question": [
+      "fidélité",
+      "points de récompense",
+      "classement utilisateur",
+      "bonus",
+      "réduction plateforme"
+    ],
+    "answer": "Vous gagnez des points à chaque action (investissement, soumission, interaction). Ces points donnent droit à des réductions, des cadeaux ou des services premium."
+  },
+  {
+    "question": [
+      "analyse prédictive",
+      "projets recommandés",
+      "simulation investissement",
+      "risques projet"
+    ],
+    "answer": "L’IA vous propose des projets adaptés à votre profil et vos préférences. Elle simule aussi les rendements possibles et évalue automatiquement les risques."
+  },
+  {
+    "question": [
+      "sms",
+      "ussd",
+      "utiliser sans internet",
+      "accès téléphone simple",
+      "code ussd"
+    ],
+    "answer": "Vous pouvez utiliser Invest Together par USSD (*123#) ou SMS pour consulter les projets, soumettre le vôtre, faire un suivi ou recevoir des notifications, même sans internet."
+  },
+  {
+    "question": [
+      "paiement",
+      "méthode de paiement",
+      "payer",
+      "mobile money",
+      "paiement carte"
+    ],
+    "answer": "Vous pouvez payer par Mobile Money (Orange Money, MTN), carte bancaire ou virement bancaire en franc guinéen (GNF), selon les options proposées."
+  },
+  {
+    "question": [
+      "plus d'infos",
+      "en savoir plus",
+      "documentation",
+      "guide complet",
+      "normes"
+    ],
+    "answer": "Pour toutes les informations complémentaires utiles concernant Invest Together, visitez : [https://investogether.net](https://investogether.net)"
   }
-
 ]
